@@ -12668,6 +12668,10 @@ pre .code {
   padding: 50px 0;
 }
 
+.padding-y {
+  padding: 20px 0 20px 0;
+}
+
 .section.bg-custom-gray {
   background: rgba(242, 244, 247, 0.15);
 }
@@ -12751,6 +12755,10 @@ pre .code {
   height: 155px !important;
 }
 
+/* .h-450 {
+  height: 450px !important;
+} */
+
 #imageModal img {
   max-width: 100%;
   height: auto;
@@ -12759,4 +12767,17 @@ pre .code {
 #imageModal .modal-dialog {
   max-width: 90%;
   margin: 30px auto;
+}
+
+@media (max-width: 767px) {
+  .d-flex.justify-content-center {
+    margin-top: -60px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .contact .contact-info-card {
+    padding-top: 20px;
+  }
 }
