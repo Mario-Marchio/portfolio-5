@@ -12664,7 +12664,7 @@ pre .code {
   background: #fcbec6;
 }
 
-.section {
+.section#service {
   padding: 50px 0;
 }
 
@@ -12688,7 +12688,7 @@ pre .code {
 
 .contact {
   position: relative;
-  min-height: 700px;
+  min-height: 500px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12701,7 +12701,6 @@ pre .code {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 40px 0;
 }
 
 

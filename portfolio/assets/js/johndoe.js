@@ -1,18 +1,3 @@
-/*!
-=========================================================
-* JohnDoe Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// smooth scroll
 $(document).ready(function () {
   $(".navbar .nav-link").on("click", function (event) {
     if (this.hash !== "") {
@@ -78,6 +63,9 @@ $(document).ready(function () {
     // Memorizza la posizione prima dell'operazione
     var currentPosition = $(window).scrollTop();
 
+    // Interrompi eventuali animazioni in corso
+    $("html, body").stop(true, true);
+
     services.slideDown();
     showMoreButton.hide();
     showLessButton.show();
@@ -100,28 +88,15 @@ $(document).ready(function () {
         },
       }
     );
-
-    // Prevent the default behavior of the anchor link
-    e.preventDefault();
   });
 
   // Handle click on "Mostra meno" button
   showLessButton.on("click", function (e) {
     e.preventDefault();
 
-    // Memorizza la posizione prima dell'operazione
-    var currentPosition = $(window).scrollTop();
-
+    // Ripristina l'animazione del "Mostra meno"
     services.slideUp(function () {
       setInitialDisplay();
-
-      // Scroll to the previous position
-      $("html, body").animate(
-        {
-          scrollTop: currentPosition,
-        },
-        500
-      );
     });
   });
 });
