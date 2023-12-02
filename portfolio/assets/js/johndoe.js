@@ -112,7 +112,7 @@ $(document).ready(function () {
 
   // Imposta il margine del contenitore al caricamento della pagina in modalità telefono
   if (isMobile()) {
-    showMoreButton.parent().css("margin-top", "-200px");
+    showMoreButton.parent().css("margin-top", "-100px");
   }
 
   // Gestisci il click sul pulsante "Mostra altri"
@@ -147,7 +147,7 @@ $(document).ready(function () {
     if (isMobile()) {
       showMoreButton
         .parent()
-        .animate({ marginTop: "-200px" }, 500, "swing", function () {
+        .animate({ marginTop: "-100px" }, 500, "swing", function () {
           // Al termine dell'animazione (opzionale), puoi eseguire ulteriori azioni qui
         });
     }
