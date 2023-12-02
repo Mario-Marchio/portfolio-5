@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./portfolio/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
     <link rel="stylesheet" href="./portfolio/assets/css/johndoe.css">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -19,9 +20,10 @@
         <div class="container">
             <ul class="social-icons pt-3">
 
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram"
+                <li class="social-item"><a class="social-link text-light" href="mailto:mariomarchio1610@gmail.com"><i
+                            class="ti-google" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light"
+                        href="https://www.instagram.com/mariomarchio1610/"><i class="ti-instagram"
                             aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github"
                             aria-hidden="true"></i></a></li>
@@ -75,7 +77,8 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">Frond End / Developer</h5>
                 <p class="mt-20">Ragazzo di 22 anni con la passione per il coding</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Certificato Boolean</button>
+                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#certificatoModal"><i
+                        class="icon-down-circled2 "></i>Certificato Boolean</button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Info Personali</h3>
@@ -172,7 +175,7 @@
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">I Nostri</span> Servizi</h2>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 ">
                     <div class="card mb-5 h-155">
                         <div class="card-header has-icon">
                             <i class="ti-vector text-danger" aria-hidden="true"></i>
@@ -183,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 ">
                     <div class="card mb-5 h-155">
                         <div class="card-header has-icon">
                             <i class="ti-write text-danger" aria-hidden="true"></i>
@@ -195,7 +198,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 ">
                     <div class="card mb-5 h-155">
                         <div class="card-header has-icon">
                             <i class="ti-package text-danger" aria-hidden="true"></i>
@@ -206,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <!-- <div class="col-md-4 col-sm-6">
                     <div class="card mb-5 h-155">
                         <div class="card-header has-icon">
                             <i class="ti-map-alt text-danger" aria-hidden="true"></i>
@@ -238,7 +241,7 @@
                             <P class="subtitle"></P>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -251,67 +254,72 @@
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="my-5 text-center container">
 
-                <div class="row d-flex align-items-center">
-                    <div class="col-1 d-flex align-items-center justify-content-center">
-                        <a href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <div class="carousel-nav-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <path
-                                        d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-10">
-                        <!--Start carousel-->
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-12 col-md d-flex align-items-center justify-content-center ">
-                                            <a href="https://casa-antelami.netlify.app/"><img class="img-fluid"
-                                                    src="./portfolio/assets/imgs/casa-antelami.jpg" alt="antelami"></a>
-                                        </div>
-                                        <div class="col-12 col-md d-flex align-items-center justify-content-center  ">
-                                            <img class="img-fluid" src="./portfolio/assets/imgs/DEVELOPER.jpg" alt="">
-
-                                        </div>
-                                        <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                            <img class="img-fluid" src="./portfolio/assets/imgs/DEVELOPER.jpg" alt="">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun01.jpg');"
-                                            class="col-12 col-md d-flex align-items-center justify-content-center">
-                                        </div>
-                                        <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun03.jpg');"
-                                            class="col-12 col-md d-flex align-items-center justify-content-center">
-                                        </div>
-                                        <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun06.jpg');"
-                                            class="col-12 col-md d-flex align-items-center justify-content-center">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="https://casa-antelami.netlify.app/"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
                         </div>
-                        <!--End carousel-->
                     </div>
-                    <div class="col-1 d-flex align-items-center justify-content-center"><a
-                            href="#carouselExampleIndicators" data-slide="next">
-                            <div class="carousel-nav-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <path
-                                        d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z" />
-                                </svg>
-                            </div>
-                        </a>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 ">
+                        <div class="box"><a href="#"><img class="img-thumbnail"
+                                    src=".//portfolio/assets/imgs/casa-antelami.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center ">
+                    <button class="btn btn-primary mt-2" id="show-more-button">Mostra altri</button>
+                    <button class="btn btn-primary mt-5" id="show-less-button" style="display:none;">Mostra
+                        meno</button>
                 </div>
             </div>
         </div>
@@ -325,7 +333,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Invia un messaggio</h4>
-                        <form action="https://formspree.io/mariomarchio1610@gmail.com" method="POST">
+                        <form action="https://formspree.io/f/xayggkew" method="POST">
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Name *" name="name" required>
                             </div>
@@ -360,7 +368,7 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Indirizzo :<br> <span class="text-muted">Ponte Ghiara</span></h6>
+                                <h6 class="d-inline">Località :<br> <span class="text-muted">Parma</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -374,11 +382,14 @@
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google"
+                            <li class="social-item"><a class="social-link text-dark"
+                                    href="mailto:mariomarchio1610@gmail.com"><i class="ti-google"
                                         aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram"
+                            <li class="social-item"><a class="social-link text-dark"
+                                    href="https://www.instagram.com/mariomarchio1610/"><i class="ti-instagram"
                                         aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github"
+                            <li class="social-item"><a class="social-link text-dark"
+                                    href="https://github.com/Mario-Marchio"><i class="ti-github"
                                         aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
@@ -394,7 +405,9 @@
             </p>
         </div>
     </footer>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js'
+        integrity='sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=='
+        crossorigin='anonymous'></script>
     <!-- core  -->
     <script src="./portfolio/assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="./portfolio/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -406,6 +419,23 @@
     <script src="./portfolio/assets/vendors/isotope/isotope.pkgd.js"></script>
     <!-- JohnDoe js -->
     <script src="./portfolio/assets/js/johndoe.js"></script>
+    <div class="modal fade" id="certificatoModal" tabindex="-1" role="dialog" aria-labelledby="certificatoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificatoModalLabel">Certificato Boolean</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contenuto dell'immagine -->
+                    <img src="./portfolio/assets/imgs/Boolean.jpg" class="img-fluid" alt="Certificato Boolean">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

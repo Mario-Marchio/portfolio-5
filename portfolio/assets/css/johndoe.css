@@ -12704,20 +12704,17 @@ pre .code {
   padding: 40px 0;
 }
 
-@media (max-width: 991.98px) {
-  .contact {
-    padding: 300px 0 0;
-  }
 
-  .contact .contact-form-card {
-    border-bottom: 1px solid #dee2e6;
-  }
 
-  .contact .contact-form-card,
-  .contact .contact-info-card {
-    min-height: auto !important;
-  }
+.contact .contact-form-card {
+  border-bottom: 1px solid #dee2e6;
 }
+
+.contact .contact-form-card,
+.contact .contact-info-card {
+  min-height: auto !important;
+}
+
 
 .contact .map {
   position: absolute;
@@ -12729,7 +12726,7 @@ pre .code {
 
 .contact .contact-form-card,
 .contact .contact-info-card {
-  padding: 35px;
+  padding: 0 35px 35px 35px;
   background: #fff;
   min-height: 500px;
 }
@@ -12752,27 +12749,15 @@ pre .code {
 }
 
 .h-155 {
-  height: 155px;
+  height: 155px !important;
 }
 
-.carousel-nav-icon {
-  height: 48px;
-  width: 48px;
+#imageModal img {
+  max-width: 100%;
+  height: auto;
 }
 
-.carousel-item {
-
-  .col,
-  .col-sm,
-  .col-md {
-    margin: 8px;
-    height: 300px;
-    background-size: cover;
-    background-position: center center;
-  }
-}
-
-.custom-shadow {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Altri stili personalizzati */
+#imageModal .modal-dialog {
+  max-width: 90%;
+  margin: 30px auto;
 }
