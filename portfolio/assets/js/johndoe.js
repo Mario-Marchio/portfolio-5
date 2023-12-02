@@ -25,7 +25,7 @@ $(document).ready(function () {
   // Initial display counts for different devices
   var desktopDisplayCount = 6;
   var tabletDisplayCount = 4;
-  var mobileDisplayCount = 2;
+  var mobileDisplayCount = 4;
 
   // Set initial display based on device type
   setInitialDisplay();
